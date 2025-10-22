@@ -8,35 +8,35 @@
 }
 
 .cards > ul > li {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 100%;
-    border: 1px solid #dadada;
-    border-radius: 12px;
-    background-color: var(--background-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  border: 1px solid #dadada;
+  border-radius: 12px;
+  background-color: var(--background-color);
 }
 
 .cards .cards-card-image {
-    line-height: 0;
+  line-height: 0;
 }
 
 .cards .cards-card-body {
-    margin: 16px;
-    flex-grow: 1;
+  margin: 16px;
+  flex-grow: 1;
 }
 
 .cards .cards-card-footer {
-    margin: 0 16px;
+  margin: 0 16px;
 }
 
 .cards > ul > li img {
-    width: 100%;
-    aspect-ratio: 4 / 3;
-    object-fit: cover;
-    border-radius: 12px 12px 0 0;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border-radius: 12px 12px 0 0;
 }
 
 .cards .button-container a {
-    background-color: red;
+  background-color: red;
 }
